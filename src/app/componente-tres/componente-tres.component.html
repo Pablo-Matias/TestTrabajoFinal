@@ -1,16 +1,15 @@
 <hr>
 <hr> 
+<button (click)= "aumentarEdad()">Aumentar</button>
+<button (click)= "disminuirEdad()">Disminuir</button>
+
 <p [style.background]="edad >= 18 ? 'green' : 'red'">
     componente-tres color segun la edad (mayor.verde menor.rojo)
 </p>
 <span > la edad que puse en el constructor compTRES-components.ts = {{edad}} </span>
-
-
 <div *ngIf="edad >= 18">
     soy mayor de edad (esto esta en components.ts ngIf)
 </div>
-
-
 <div *ngIf="edad < 18">
     soy un pendex PELADO (esto esta en compTRES components.ts)
 </div>

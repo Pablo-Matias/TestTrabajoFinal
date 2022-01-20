@@ -11,10 +11,27 @@ export class ComponenteTresComponent implements OnInit {
   constructor() {
 this.edad=17;
 
-
   }
 
   ngOnInit(): void {
   }
 
+  aumentarEdad(){
+    this.edad++;
+    console.log(Aumentar)
+  }
+  disminuirEdad(){
+    this.edad = this.edad -1;
+    console.log(Disminuir)
+  }
+
+}
+
+function Aumentar(Aumentar: any) {
+  throw new Error('Function not implemented.');
+}
+
+
+function Disminuir(Disminuir: any) {
+  throw new Error('Function not implemented.');
 }
