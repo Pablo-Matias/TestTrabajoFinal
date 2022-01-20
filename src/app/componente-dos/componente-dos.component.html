@@ -1,0 +1,16 @@
+<hr>
+<p>HOLA ROMINITA</p>
+
+<h3 [style.background]="edad >= 18 ? 'green' : 'red'">
+
+    mi edad es (en h3) {{edad}}
+</h3>
+
+<div *ngIf="edad >= 18">
+    soy mayor de edad (esto esta en compDOS components.ts ngIf)
+</div>
+
+
+<div *ngIf="edad < 18">
+    soy un pendex
+</div>

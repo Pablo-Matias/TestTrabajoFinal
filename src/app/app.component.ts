@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TrabajoFinal';
+  title = '"este titulo esta en app.modules.ts"';
+  nombre:string = "Pablo Matias G. (app.modules.ts :nombre, llamado desde APPcomponentes.html)";
 }
